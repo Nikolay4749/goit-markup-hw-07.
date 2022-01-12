@@ -1,0 +1,126 @@
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  color: var(--text-title);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo__accent {
+  color: var(--accent-color);
+}
+
+/* main-nav */
+
+.main-nav {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  margin-left: 93px;
+}
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav__link {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--text-title);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color, box-shadow, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav__link--activ::after {
+  position: absolute;
+  bottom: -1px;
+  content: '';
+  display: flex;
+  width: 100%;
+  height: 4px;
+
+  background: #2196f3;
+  border-radius: 2px;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: var(--accent-color);
+}
+.nav__link .nav__link--activ {
+  color: var(--accent-color);
+}
+
+.contakts {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin-left: auto;
+}
+
+.contakts__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contakts__link {
+  display: flex;
+  align-items: center;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+
+  color: var(--text-primary);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color, box-shadow, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contakts__ico-phone,
+.contakts__ico-mail {
+  color: var(--text-primary);
+}
+
+.contakts__icon {
+  margin-right: 10px;
+  fill: var(--text-primary);
+}
+
+.contakts__link:hover,
+.contakts__link:focus {
+  color: var(--accent-color);
+}
+
+.contakts__link:hover .contakts__icon,
+.contakts__link:focus .contakts__icon {
+  fill: var(--accent-color);
+}

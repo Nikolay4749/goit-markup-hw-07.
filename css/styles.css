@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --accent-color: #2196f3;
   --text-primary: #757575;
   --text-title: #212121;
@@ -56,6 +56,7 @@ a {
 }
 
 /* ======= Heaeder style start here ======= */
+
 header {
   border-bottom: 1px solid #ececec;
 }
@@ -474,6 +475,7 @@ button {
 /* ===== Our team style end here ===== */
 
 /* regular customers (start) */
+
 .customers__title {
   display: flex;
   justify-content: center;
@@ -537,6 +539,7 @@ button {
 /* regular customers (end) */
 
 /* ===== Footer style start here ===== */
+
 .address {
   display: flex;
   padding: 0;
@@ -732,6 +735,7 @@ button {
 /* =*=*=*= Portfolio =*=*=*= */
 
 /* ===== Filter-button style start here ===== */
+
 .button-list {
   padding: 0;
 }
@@ -1128,4 +1132,4 @@ button {
   border-radius: 4px;
 
   color: var(--primary-white-color);
-}
+} */
