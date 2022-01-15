@@ -1,7 +1,11 @@
 // variables
 @import './utils/vars';
+@import './utils/visualy-hidden';
+@import './utils/mixins';
 // base styles
 @import './base/reset';
+@import './base/container';
+@import './base/_.section';
 // layuot
 @import './layuot/heder';
 @import './layuot/hero';
@@ -10,10 +14,17 @@
 @import './layuot/our-team';
 @import './layuot/customers';
 @import './layuot/footer';
-@import './layuot/\ portfolio-buttons';
 @import './layuot/product-examples';
 // components
+@import './components/container';
 @import './components/modal';
 @import './components/button';
+@import './components/nav-heder';
+@import './components/contakts-heder';
 @import './components/logo';
 @import './components/hero-title';
+@import './components/logo-footer';
+@import './components/contakts-footer';
+@import './components/social-footer';
+@import './components/button-list-portfolio';
+@import './components/product-examples';

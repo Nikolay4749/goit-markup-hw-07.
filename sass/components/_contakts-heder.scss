@@ -1,0 +1,53 @@
+.contakts {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin-left: auto;
+}
+
+.contakts__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contakts__link {
+  display: flex;
+  align-items: center;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+
+  color: var(--text-primary);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color, box-shadow, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contakts__ico-phone,
+.contakts__ico-mail {
+  color: var(--text-primary);
+}
+
+.contakts__icon {
+  margin-right: 10px;
+  fill: var(--text-primary);
+}
+
+.contakts__link:hover,
+.contakts__link:focus {
+  color: var(--accent-color);
+}
+
+.contakts__link:hover .contakts__icon,
+.contakts__link:focus .contakts__icon {
+  fill: var(--accent-color);
+}

@@ -10,9 +10,10 @@ header {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-}
-.logo__accent {
-  color: var(--accent-color);
+
+  &__accent {
+    color: var(--accent-color);
+  }
 }
 
 /* main-nav */

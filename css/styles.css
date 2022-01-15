@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --accent-color: #2196f3;
   --text-primary: #757575;
   --text-title: #212121;
@@ -246,6 +246,7 @@ button {
 /* ======= Hero style end here ======= */
 
 /* ======= feauture style start here ======= */
+
 .feature {
   padding: 0;
 }
@@ -302,6 +303,7 @@ button {
 /* ======= feauture style end here ======= */
 
 /* ==== What are we doing style start here ==== */
+
 .work-examples {
   padding: 0;
 }
@@ -498,11 +500,11 @@ button {
 
 .customers__item {
   display: flex;
-  min-width: 170px;
-  min-height: 92px;
-
   align-items: center;
   justify-content: center;
+
+  min-width: 170px;
+  min-height: 92px;
 }
 
 .customers__item:not(:last-child) {
@@ -1132,4 +1134,4 @@ button {
   border-radius: 4px;
 
   color: var(--primary-white-color);
-} */
+}
