@@ -19,10 +19,6 @@
   padding-bottom: 94px;
 }
 
-.work-examples__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .work-examples__image {
   display: block;
   max-width: 100%;
@@ -31,14 +27,16 @@
 
 .work-examples__item {
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .descript {
+  @include flexCenter();
   bottom: 0;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 370px;
   height: 70px;
 

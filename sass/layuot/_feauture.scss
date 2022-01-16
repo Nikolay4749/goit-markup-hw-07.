@@ -13,9 +13,7 @@
 }
 
 .feature__icon-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter();
   margin-bottom: 30px;
 
   background-color: var(--primary-bcg-color);
@@ -37,9 +35,7 @@
 }
 
 .feature__ico {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter();
 }
 
 .feature__content {

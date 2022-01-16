@@ -1,7 +1,5 @@
 .contakts {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  @include flexCenter();
 
   margin-left: auto;
 }
@@ -30,24 +28,9 @@
   transition-property: color, box-shadow, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contakts__ico-phone,
-.contakts__ico-mail {
-  color: var(--text-primary);
-}
-
-.contakts__icon {
-  margin-right: 10px;
-  fill: var(--text-primary);
-}
-
-.contakts__link:hover,
-.contakts__link:focus {
-  color: var(--accent-color);
-}
-
-.contakts__link:hover .contakts__icon,
-.contakts__link:focus .contakts__icon {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

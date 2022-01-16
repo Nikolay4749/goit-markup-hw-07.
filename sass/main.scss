@@ -1,12 +1,11 @@
 // variables
-@import './utils/vars';
+@import './utils/variables';
 @import './utils/visualy-hidden';
 @import './utils/mixins';
 // base styles
 @import './base/reset';
-@import './base/container';
-@import './base/_.section';
-// layuot
+
+// layuotvariables
 @import './layuot/heder';
 @import './layuot/hero';
 @import './layuot/feauture';
@@ -14,9 +13,10 @@
 @import './layuot/our-team';
 @import './layuot/customers';
 @import './layuot/footer';
-@import './layuot/product-examples';
+
 // components
 @import './components/container';
+@import './components/.section';
 @import './components/modal';
 @import './components/button';
 @import './components/nav-heder';
