@@ -142,8 +142,8 @@
 }
 
 .policy-box {
-  display: flex;
-  align-items: center;
+  @include flexCenter();
+  margin-top: 20px;
   margin-bottom: 30px;
   font-size: 14px;
   color: var(--text-primary);
@@ -162,6 +162,7 @@
 }
 
 .policy__icon {
+  cursor: pointer;
   width: 16px;
   height: 15px;
   border: 2px solid var(--text-title);

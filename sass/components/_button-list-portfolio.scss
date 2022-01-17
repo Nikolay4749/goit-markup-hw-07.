@@ -1,11 +1,11 @@
 .button-list {
-  padding: 0;
+  padding-top: 94px;
+  margin-bottom: 34px;
 }
 
 .button-list__list {
   display: flex;
   justify-content: center;
-  margin: 94px 0 50px;
 }
 
 .button-list__item:not(:last-child) {

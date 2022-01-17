@@ -1,11 +1,9 @@
 .feature {
-  padding: 0;
+  padding-top: 94px;
 }
 
 .feature__list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .feature__item:not(:last-child) {
