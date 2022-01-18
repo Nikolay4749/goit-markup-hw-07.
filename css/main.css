@@ -839,10 +839,19 @@ header {
 }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-left: 93px;
+}
+@media screen and (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .nav__item:not(:last-child) {
@@ -904,6 +913,18 @@ header {
           align-items: center;
   margin-left: auto;
 }
+@media screen and (max-width: 767px) {
+  .contakts {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contakts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 
 .contakts__item:not(:last-child) {
   margin-right: 50px;
@@ -957,11 +978,11 @@ header {
 
 .section-hero {
   padding-top: 0;
-  max-width: 1600px;
-  height: 600px;
 }
 
 .main-hero {
+  min-width: 1600px;
+  height: 600px;
   padding: 200px 0;
   text-align: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/fone.jpg");
@@ -1068,8 +1089,7 @@ header {
 }
 
 .work-examples {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 0;
 }
 
 .work-examples__title {
@@ -1130,8 +1150,6 @@ header {
 }
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--primary-bcg-color);
 }
 
@@ -1240,8 +1258,6 @@ header {
 }
 
 .team__list .member__item {
-  -ms-flex-preferred-size: calc(100% / 3 - 20px);
-      flex-basis: calc(100% / 3 - 20px);
   margin-left: 20px;
   margin-top: 20px;
 }

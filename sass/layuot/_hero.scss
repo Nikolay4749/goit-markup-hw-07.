@@ -1,10 +1,12 @@
 .section-hero {
   padding-top: 0;
-  max-width: 1600px;
-  height: 600px;
+  // max-width: 1600px;
+  // height: 600px;
 }
 
 .main-hero {
+  min-width: 1600px;
+  height: 600px;
   padding: 200px 0;
   text-align: center;
 

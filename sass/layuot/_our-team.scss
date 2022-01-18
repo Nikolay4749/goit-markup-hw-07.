@@ -1,6 +1,4 @@
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--primary-bcg-color);
 }
 
@@ -105,7 +103,6 @@
 }
 
 .team__list .member__item {
-  flex-basis: calc(100% / 3 - 20px);
   margin-left: 20px;
   margin-top: 20px;
 }
